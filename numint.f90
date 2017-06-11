@@ -1,3 +1,5 @@
+! numeric integration using simpson and trapezoidal rule
+
 MODULE function
 
   CONTAINS
