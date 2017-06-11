@@ -1,3 +1,5 @@
+! numerical integration using trapezoidal method to find circumference of an ellipse
+
 MODULE ellipse
 
 CONTAINS
