@@ -1,3 +1,5 @@
+! find points in mandelbrot set, gnuplot command: plot 'fort.1'
+
 PROGRAM mandelbrot
   USE set
 
