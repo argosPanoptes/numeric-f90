@@ -53,9 +53,9 @@ PROGRAM circumference
   n=100
   twopi = 2. * ACOS(-1.0)
 
-  WRITE(*,FMT="(A)",ADVANCE="no") "Laenge der grossen Halbachse [m]: "
+  WRITE(*,FMT="(A)",ADVANCE="no") "length of  major axis: "
   READ(*,*)a
-  WRITE(*,FMT="(A)",ADVANCE="no") "Laenge der kleinen Halbachse [m]: "
+  WRITE(*,FMT="(A)",ADVANCE="no") "length of minor axis: "
   READ(*,*)b
   
   CALL integrate(f1, 0., twopi, a, b, It, n)
